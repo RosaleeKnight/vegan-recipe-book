@@ -1,4 +1,76 @@
-html {
-  height: 100%;
-  width: 100%;
+* {
+    font-family: cursive;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.header {
+    display: flex;
+    margin-bottom: 2rem;
+    min-width: 600px;
+    border-bottom: solid 1px #ffd977;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    -ms-flex-align: center;
+    margin-left: 2rem;
+}
+
+.containerInner {
+    margin-bottom: 2rem;
+    max-width: 360px;
+    border: 2px solid #ffd977;
+}
+
+.containerRecipes {
+    max-width: 300px;
+    min-height: 400px;
+    margin-bottom: 2rem;
+    border: 2px solid #ffd977;
+}
+
+.containerRecipeWords {
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 2rem;
+}
+
+.recipePicture {
+    max-width: 300px;
+    max-height: 300px;
+    padding: 2rem 2rem;
+    margin-bottom: 2rem;
+    border: 2px solid #ffd977;
+}
+
+.ingredientsContainer {
+    max-width: 300px;
+    padding: 2rem 2rem;
+    margin-bottom: 2rem;
+    border: 2px solid #ffd977;
+}
+
+.ingredientsText {
+    font-size: 2em;
+    font-weight: bolder;
+
+}
+
+.instructionsContainer {
+    max-width: 300px;
+    padding: 2rem 2rem;
+    border: 2px solid #ffd977;
+}
+
+.instructionsText {
+    font-size: 2em;
+    font-weight: bolder;
 }
