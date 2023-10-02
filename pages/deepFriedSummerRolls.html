@@ -1,57 +1,183 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Deep fried Summer Rolls</title>
-    <link href="../style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+            <a href="../index.html" class="navbar-brand"> <i class="bi bi-journal"></i> Recipe Book</a>
 
-    <div class="header">
-        <img src="../images/recipeBookLogo.png" alt="Logo" class="image">
-    </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <div class="container">
-        <div class="recipePicture">
-            <img src="../images/deepFriedSummerRolls.png" alt="Deep fried Summer Rolls" class="image"></a>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="/pages/breakfast.html" class="nav-link">Breakfast</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/pages/lunch.html" class="nav-link">Lunch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/pages/dinner.html" class="nav-link">Dinner</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/pages/dessert.html" class="nav-link">Dessert</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/pages/drinks.html" class="nav-link">Drinks</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="ingredientsContainer">
-            <div class="ingredientsText">Ingredients</div>
-            <ul>
-                <li>10 pcs spring rolls wrappers</li>
-                <li>1 small purple cabbage- finely sliced</li>
-                <li>1 carrot- thinly sliced</li>
-                <li>20 gm cellophane noodles -soak in hot water for 10 minutes, drain out the water</li>
-                <li>50 gm bean sprouts</li>
-                <li>Some crispy garlic</li>
-                <li>1 tbsp Sesame oil</li>
-                <li>Onion salt for taste</li>
-                <li>Coriander for garnish</li>
-            </ul>
-        </div>
+    </nav>
 
-        <div class="instructionsContainer">
-            <div class="instructionsText"> Instructions</div>
-            <ol>
-                <li>Add in the cooked rice noodles, sesame oil, crispy garlic and onion salt in a big bowl (set aside).
-                </li>
-                <li>Place a spring roll wrap onto a towel and fill it with all the fresh veggies and top some cooked
-                    glass noodles.</li>
-                <li>Make a sausage like shape out of the fillings at one end of the wrappers.
-                <li>Fold sides
-                    in and begin rolling the spring roll.</li>
-                <li>At the end of the rolling seal it by moistening the edge with
-                    water.</li>
-                <li> Heat the oil over medium-high heat.</li>
-                <li>Fry the rolls and ensure turning frequently until the spring
-                    rolls turn golden brown.</li>
-                <li>Finally serve with any your favourite dipping sauce.</li>
-                <p><a href="https://www.instagram.com/p/CaYcotzv5op/" target="_self">Source Here</a></p>
-            </ol>
+    <!-- Showcase -->
+    <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 mt-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>All <span class="text-success"> Vegan </span> Recipe Book</h1>
+                    <p class="lead my-4">
+                        Plant based dishes with <span class="text-danger"> no animal byproducts </span> and drinks for
+                        all occassions.
+                    </p>
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block" src="/images/chef.svg" alt="Chef" />
+            </div>
         </div>
-    </div>
+    </section>
+
+    <!-- Boxes -->
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <img class="rounded mx-auto d-block d-none d-sm-block"
+                                    src="/images/deepFriedSummerRolls.png" alt="Deep fried Summer Rolls" />
+                            </div>
+                            <h3 class="card-title mb-3 mt-5">Ingredients</h3>
+                            <p>10 pcs spring rolls wrappers</p>
+                            <p>1 small purple cabbage- finely sliced</p>
+                            <p>1 carrot- thinly sliced</p>
+                            <p>20 gm cellophane noodles -soak in hot water for 10 minutes, drain out the water</li>
+                            <p>50 gm bean sprouts</p>
+                            <p>Some crispy garlic</p>
+                            <p>1 tbsp Sesame oil</p>
+                            <p>Onion salt for taste</p>
+                            <p>Coriander for garnish</p>
+                            <h3 class="card-title mb-3 mt-5">Instructions</h3>
+                            <p>1. Add in the cooked rice noodles, sesame oil, crispy garlic and onion salt in a big bowl
+                                (set aside).
+                            </p>
+                            <p>2. Place a spring roll wrap onto a towel and fill it with all the fresh veggies and top
+                                some cooked
+                                glass noodles.</p>
+                            <p>3. Make a sausage like shape out of the fillings at one end of the wrappers.</p>
+                            <p>4. Fold sides
+                                in and begin rolling the spring roll.</p>
+                            <p>5. At the end of the rolling seal it by moistening the edge with
+                                water.</p>
+                            <p>6. Heat the oil over medium-high heat.</p>
+                            <p>7. Fry the rolls and ensure turning frequently until the spring
+                                rolls turn golden brown.</p>
+                            <p>8. Finally serve with any your favourite dipping sauce.</p>
+                            <a href="https://www.instagram.com/p/CaYcotzv5op/" class="btn btn-success">Source</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Question Accordion -->
+    <section id="questions" class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+            <div class="accordion accordion-flush" id="questions">
+                <!-- Item 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-one">
+                            Where does Plant Based mean?
+                        </button>
+                    </h2>
+                    <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">
+                            The meal contains ingredients derived from plants, including fruits, vegetables, nuts,
+                            seeds, oils, whole grains, legumes, and beans. It does not contain animal by products animal
+                            products, including red meat, poultry, fish, eggs, honey and dairy products such as whey.
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-two">
+                            What is the standard serving size?
+                        </button>
+                    </h2>
+                    <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">
+                            All recipes that show multiple items are meals that make 2 servings and single item recipes
+                            including drinks create 1 serving.
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-three">
+                            What criteria makes a recipe lunch or dinner items?
+                        </button>
+                    </h2>
+                    <div id="question-three" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">
+                            It's based off of two things, how filling the item is and how long it takes to prepare.
+                            Lunch
+                            contains moderately filling items that take less then 2hrs to prepare. Dinner contains very
+                            filling items which are protien heavy and dishes that take 2hrs or more to prepare (ex:
+                            holiday dishes).
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">All rights reserved to their respective owners.</p>
+
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
