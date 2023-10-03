@@ -1,75 +1,208 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../style.css" />
     <title>Bolognese</title>
-    <link href="../style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+            <a href="../index.html" class="navbar-brand"> <i class="bi bi-journal"></i> Recipe Book</a>
 
-    <div class="header">
-        <img src="../images/recipeBookLogo.png" alt="Logo" class="image">
-    </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <div class="container">
-        <div class="recipePicture">
-            <img src="../images/bolognese.png" alt="Bolognese" class="image"></a>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="/pages/breakfast.html" class="nav-link">Breakfast</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/pages/lunch.html" class="nav-link">Lunch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/pages/dinner.html" class="nav-link">Dinner</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/pages/dessert.html" class="nav-link">Dessert</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/pages/drinks.html" class="nav-link">Drinks</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="ingredientsContainer">
-            <div class="ingredientsText">Ingredients</div>
-            <ul>
-                <li>1 tbsp oil</li>
-                <li>1 medium onion finely diced</li>
-                <li>1 medium (52 g) stalk celery finely diced (1/2 cup)</li>
-                <li>10 oz fresh (280 g) mushrooms finely diced (or 1 oz dried)</li>
-                <li>2 medium (200 g) carrots finely grated</li>
-                <li>4 cloves garlic finely minced or crushed</li>
-                <li>2 tsp Italian seasoning or use 1 tsp each of dried oregano and basil</li>
-                <li> 1 tsp onion powder</li>
-                <li>1 tsp coconut sugar or sweetener of choice</li>
-                <li>Pinch of red pepper flakes or to taste</li>
-                <li>Salt and black pepper to taste</li>
-                <li>1/3 cup (80 ml) red wine or use more vegetable broth</li>
-                <li>3 cups (750 g) crushed tomatoes or marinara sauce or tomato sauce</li>
-                <li>2 cups (480 ml) vegetable broth</li>
-                <li>1 bay leaf</li>
-                <li>1 cup (200 g) dry lentils I used brown, soaked</li>
-                <li>1 tbsp soy sauce or tamari</li>
-                <li>1 tbsp balsamic vinegar</li>
-                <li>1/2 cup (120 ml) plant-based milk</li>
-                <li>1 tsp cornstarch</li>
-                <li>8 oz (225 g) pasta of choice</li>
-                <li>Vegan parmesan or nutritonal yeast to garnish</li>
-            </ul>
-        </div>
+    </nav>
 
-        <div class="instructionsContainer">
-            <div class="instructionsText"> Instructions</div>
-            <ol>
-                <li>I recommend soaking the lentils in lukewarm water if you are using green or brown lentils. This step
-                    is optional, however, the lentils cook faster and are furthermore better digested when soaked. You
-                    can skip this step if using red lentils.</li>
-                <li>Heat oil in a pan or pot over medium heat. Add onion, celery, mushrooms, and carrots.</li>
-                <li>Sauté for 3-4
-                    minutes. Stir in garlic, sweetener, and all spices.</li>
-                <li>Sauté for a further one minute, stirring
-                    frequently.</li>
-                <li>Add red wine (or vegetable broth), crushed tomatoes, vegetable broth, the bay leaf, and the drained
-                    lentils. Stir to combine.</li>
-                <li>Bring to a boil and let simmer for 20 minutes or until the lentils are tender (depending on the
-                    variety it can take shorter or longer).</li>
-                <li> Meanwhile, cook your favorite pasta (e.g. spaghetti) as per package instructions.</li>
-                <li> Add soy sauce and balsamic vinegar. Mix the plant-based milk and cornstarch in a small bowl and add
-                    the mixture to the pan.</li>
-                <li>Taste and adjust seasonings. Add more salt/pepper/spices to taste. Also, add more vegetable broth if
-                    needed.</li>
-                <li>Serve the lentil bolognese in bowls over pasta and sprinkle vegan Parmesan on top. </li>
-                <p><a href="https://www.instagram.com/p/CYO76DQPixL/" target="_self">Source Here</a></p>
-            </ol>
+    <!-- Showcase -->
+    <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>All <span class="text-success"> Vegan </span> Recipe Book</h1>
+                    <p class="lead my-4">
+                        Plant based dishes with <span class="text-danger"> no animal byproducts </span> and drinks for
+                        all occassions.
+                    </p>
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block" src="/images/chef.svg" alt="Chef" />
+            </div>
         </div>
-    </div>
+    </section>
+
+    <!-- Boxes -->
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <img class="rounded mx-auto d-block d-none d-sm-block" src="/images/bolognese.png"
+                                    alt="Bolognese" />
+                            </div>
+                            <h3 class="card-title mb-3 mt-5">Ingredients</h3>
+                            <p>1 tbsp oil</p>
+                            <p>1 medium onion finely diced</p>
+                            <p>1 medium (52 g) stalk celery finely diced (1/2 cup)</p>
+                            <p>10 oz fresh (280 g) mushrooms finely diced (or 1 oz dried)</p>
+                            <p>2 medium (200 g) carrots finely grated</p>
+                            <p>4 cloves garlic finely minced or crushed</p>
+                            <p>2 tsp Italian seasoning or use 1 tsp each of dried oregano and basil</p>
+                            <p>1 tsp onion powder</p>
+                            <p>1 tsp coconut sugar or sweetener of choice</p>
+                            <p>Pinch of red pepper flakes or to taste</p>
+                            <p>Salt and black pepper to taste</p>
+                            <p>1/3 cup (80 ml) red wine or use more vegetable broth</p>
+                            <p>3 cups (750 g) crushed tomatoes or marinara sauce or tomato sauce</p>
+                            <p>2 cups (480 ml) vegetable broth</p>
+                            <p>1 bay leaf</p>
+                            <p>1 cup (200 g) dry lentils I used brown, soaked</p>
+                            <p>1 tbsp soy sauce or tamari</p>
+                            <p>1 tbsp balsamic vinegar</p>
+                            <p>1/2 cup (120 ml) plant-based milk</p>
+                            <p>1 tsp cornstarch</p>
+                            <p>8 oz (225 g) pasta of choice</p>
+                            <p>Vegan parmesan or nutritonal yeast to garnish</p>
+                            <h3 class="card-title mb-3 mt-5">Instructions</h3>
+                            <p>1. I recommend soaking the lentils in lukewarm water if you are using green or brown
+                                lentils. This step
+                                is optional, however, the lentils cook faster and are furthermore better digested when
+                                soaked. You
+                                can skip this step if using red lentils.</p>
+                            <p>2. Heat oil in a pan or pot over medium heat. Add onion, celery, mushrooms, and carrots.
+                            </p>
+                            <p>3. Sauté for 3-4
+                                minutes. Stir in garlic, sweetener, and all spices.</p>
+                            <p>4. Sauté for a further one minute, stirring
+                                frequently.</p>
+                            <p>5. Add red wine (or vegetable broth), crushed tomatoes, vegetable broth, the bay leaf,
+                                and
+                                the drained
+                                lentils. Stir to combine.</p>
+                            <p>6. Bring to a boil and let simmer for 20 minutes or until the lentils are tender
+                                (depending
+                                on the
+                                variety it can take shorter or longer).</p>
+                            <p>7. Meanwhile, cook your favorite pasta (e.g. spaghetti) as per package instructions.</p>
+                            <p>8. Add soy sauce and balsamic vinegar. Mix the plant-based milk and cornstarch in a small
+                                bowl and add
+                                the mixture to the pan.</p>
+                            <p>9. Taste and adjust seasonings. Add more salt/pepper/spices to taste. Also, add more
+                                vegetable broth if
+                                needed.</p>
+                            <p>10. Serve the lentil bolognese in bowls over pasta and sprinkle vegan Parmesan on top. </p>
+                            <a href="https://www.instagram.com/p/CYO76DQPixL/" class="btn btn-success">Source</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Question Accordion -->
+    <section id="questions" class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+            <div class="accordion accordion-flush" id="questions">
+                <!-- Item 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-one" aria-expanded="false" aria-controls="question-one">
+                            Where does Plant Based mean?
+                        </button>
+                    </h2>
+                    <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">
+                            The meal contains ingredients derived from plants, including fruits, vegetables, nuts,
+                            seeds, oils, whole grains, legumes, and beans. It does not contain animal by products animal
+                            products, including red meat, poultry, fish, eggs, honey and dairy products such as whey.
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-two" aria-expanded="false" aria-controls="question-two">
+                            What is the standard serving size?
+                        </button>
+                    </h2>
+                    <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">
+                            All recipes that show multiple items are meals that make 2 servings and single item recipes
+                            including drinks create 1 serving.
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-three" aria-expanded="false" aria-controls="question-three">
+                            What criteria makes a recipe lunch or dinner items?
+                        </button>
+                    </h2>
+                    <div id="question-three" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">
+                            It's based off of two things, how filling the item is and how long it takes to prepare.
+                            Lunch
+                            contains moderately filling items that take less then 2hrs to prepare. Dinner contains very
+                            filling items which are protien heavy and dishes that take 2hrs or more to prepare (ex:
+                            holiday dishes).
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">All rights reserved to their respective owners.</p>
+
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
