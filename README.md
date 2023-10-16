@@ -9,9 +9,6 @@ Collection of vegan recipes from different locations. This is version 5 which is
   
 Work In Progress.  
   
-Currently: Adding recipes from section 1 Instagram.  
-To Do: Area 2 Pins. Area 3 Other.  
-
 -----
 # 💻 How to install 
 Installation not required.
