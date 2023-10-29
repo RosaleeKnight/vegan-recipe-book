@@ -1,6 +1,7 @@
-<div align="center">
-  <img src="https://github.com/RosaleeKnight/vegan-recipe-book/assets/97799058/5ee436e3-2509-4537-a886-28d61b835b27" alt="blog" width="640" height="320" />
+![vegan-recipe-book (1)](https://github.com/RosaleeKnight/vegan-recipe-book/assets/97799058/69441890-6b2c-4f3c-97e8-514260d04ecd)
 
+<div align="center">
+ 
   ![GitHub top language](https://img.shields.io/github/languages/top/RosaleeKnight/vegan-recipe-book)
   ![GitHub language count](https://img.shields.io/github/languages/count/RosaleeKnight/vegan-recipe-book)
   ![GitHub](https://img.shields.io/github/license/RosaleeKnight/vegan-recipe-book)
